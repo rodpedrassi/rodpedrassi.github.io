@@ -1,36 +1,30 @@
-h1 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: rgb(107, 78, 113);
-  font-size: 2em;
-}
-h2,
-h3 {
-  color: rgb(107, 78, 113);
-}
-p {
-  color: rgb(83, 104, 126);
-}
 body {
-  background-color: rgb(194, 178, 180);
-  text-align: justify;
-  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 25px;
+  /* background-color: #127475; */
+  /* background-color: #0E9594; */
+  /* background-color: #562C2C; */
+  background-color: #353535;
+  /* background-color: #8A897C; */
+
+
+
+  color: #f5dfbb;
 }
-em {
-  font-weight: bolder;
-}
-li {
-  color: rgb(58, 68, 84);
+h1 {
+  font-size: 2em;
+  color: goldenrod;
 }
 
-#email {
-  color: rgb(25, 90, 160);
+.lista-outros {
+  font-size: 0.8em;
 }
 
-.lista-destaques{
-    line-height: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+#tracejado {
+  text-decoration: line-through;
+  font-size: 0.8em;
 }
-.lista-outros{
-    font-family: fantasy;
-
+a {
+  text-decoration: none;
+  color: goldenrod;
 }
