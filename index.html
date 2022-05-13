@@ -4,77 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rodrigo Pedrassi</title>
-    <link rel="stylesheet" href="style.css" type="text/css" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
-      rel="stylesheet"
-    />
+    <title>Pedrassi</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="cabecalho">
-      <p id="topo">Olá, meu nome é:</p>
-      <h1>Rodrigo Pedrassi Alves</h1>
-    </div>
-    <div class="corpo-conteudo-todo">
-      
-      <div class="texto-descricao">
-        <p>
-          Sou estudante da trybe e com muito esforço e dedicação ao final dessa
-          jornada serei um desenvolvedor web full stack!
-        </p>
-        <br><br><br>
+    
+    <main class="corpo">
+      <div class="esquerda">
+        <header class="cabecalho">
+          <nav class="nav-menu">
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+          </nav>
+        </header>
       </div>
-        <div class="perfil">
-          <img
-            src="./img/cryon.png"
-            alt="Esperando a trybe me dar a camisa pra tirar um foto bonita!"
-          />
+      <section class="meio">
+        <div class="titulo">
+          <span class="ola">Olá, meu nome é</span>
+          <h1 class="titulo">Rodrigo Pedrassi</h1>
+          <h2 class="subtitulo">Sou desenvolvedor web full stack.</h2>
         </div>
-      <div class="texto-nacionalidade">
-        <p>
-          Sou brasileiro
-          <em id="tracejado">com muito orgulho com muito amor!</em>
-          nasci e moro em São Vicente, São Paulo.
-        </p>
-        <br><br><br><br>
-      </div>
-    </div>
-
-    <h2>Softskills em destaque:</h2>
-    <ul class="lista-destaques">
-      <li>Assertividade</li>
-      <li>Personalidade Amigável</li>
-      <li>Pontualidade</li>
-    </ul>
-
-    <h3>Outras Habilidades</h3>
-    <ul class="lista-outros">
-      <em>
-        <li>Javascript</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Git</li>
-        <li>Github</li>
-        <li>Shell</li>
-        <li>MySql</li>
-        <li>Orientação a Objetos</li>
-      </em>
-    </ul>
-    <hr />
-    <h4>Contato:</h4>
-    <p>Email: rodpedrassi@gmail.com</p>
-    <a
-      href="https://www.linkedin.com/in/rodrigo-pedrassi-alves-30785892/"
-      target="_blanck"
-      >linkedin</a
-    >
-
-    <br /><br />
-    <hr />
-    <a href="#topo">Topo</a>
+        <div class="sobre-titulo">
+          <h3>Sobre mim:</h3>
+        </div>
+        <article class="sobre-texto">
+          <p>Sou brasileiro, nasci e moro em São Paulo.</p>
+          <p>
+            As coisas que mais me motivam são: aprender coisas novas, descobrir
+            formas de melhorar meu código, amo jogar video games com os amigos e
+            assistir uma boa série! Sempre buscando ser melhor do que eu fui
+            ontem.
+          </p>
+        </article>
+        <section class="listas-wrapper">
+          <div class="lista-soft-wrapper">
+            <ul class="lista-soft">
+              <li>Comunicação</li>
+              <li>Comunicação</li>
+              <li>Comunicação</li>
+            </ul>
+          </div>
+          <div class="lista-hard-wrapper">
+            <ul class="lista-hard">
+              <li>Html</li>
+              <li>Css</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+        </section>
+      </section>
+      <section class="direita">
+        <img
+          src="img/cryon.png"
+          alt="Fotinha do Cryon Shin chan"
+          class="perfil"
+        />
+      </section>
+    </main>
   </body>
 </html>

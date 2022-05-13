@@ -1,76 +1,61 @@
-body {
-  font-family: "Ubuntu", sans-serif;
-  font-size: 25px;
-  /* background-color: #127475; */
-  /* background-color: #0E9594; */
-  /* background-color: #562C2C; */
-  background-color: #353535;
-  /* background-color: #8A897C; */
-  color: #f5dfbb;
-  padding: 0px;
-  margin: 0px;
-}
-h1 {
-  font-size: 2em;
-  color: goldenrod;
-}
-
-.lista-outros {
-  font-size: 0.8em;
-}
-
-#tracejado {
-  text-decoration: line-through;
-  font-size: 0.8em;
-}
-a {
+@import url("https://fonts.googleapis.com/css2?family=Balthazar&family=Press+Start+2P&display=swap");
+/* 
+font-family: 'Balthazar', serif;
+font-family: 'Press Start 2P', cursive; */
+* {
+  margin: 0;
+  padding: 0;
   text-decoration: none;
-  color: goldenrod;
 }
 
 .cabecalho {
-  /* border: 5px solid red; */
-  margin: auto;
-  text-align: center;
-  margin-bottom: 150px;
+
+}
+.corpo {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  height: 1060px;
+}
+.meio {
+  background-color: rgb(18, 18, 18);
+  padding: 24px;
+  flex-basis: 40%;
 }
 
-.corpo-conteudo-todo {
-  /* border: 1px solid red; */
-  width: 95%;
-  margin: auto;
+.titulo {
+  font-family: "Balthazar", serif;
+  padding-top: 86px;
+  padding-bottom: 100px;
+}
+.titulo h1 {
+  font-size: 39px;
+  font-family: "Press Start 2P", cursive;
+  padding: 0px 12px;
+}
+.titulo span,
+.titulo h2 {
+  font-size: 24px;
+  padding: 0px 12px;
+}
+.subtitulo h2 {
+  font-size: 28px;
 }
 
+.esquerda,
+.direita {
+  background-color: rgb(254, 212, 58);
+}
+.esquerda {
+  width: 200px;
+  flex-basis: 10%;
+}
+.direita {
+  flex-basis: 60%;
+}
 .perfil {
-  border: 1px solid red;
-  width: 35%;
-  height: 340px;
-  display: inline-block;
-  text-align: center;
-}
-.perfil img {
   width: 300px;
-}
-
-.texto-descricao {
-  border: 1px solid red;
-  display: inline-block;
-  width: 30%;
-  margin: auto;
-  
-
-}
-.texto-nacionalidade {
-  border: 1px solid red;
-  display: inline-block;
-  width: 30%;
-  margin: auto;
-  padding: 10px;
-}
-
-.texto-nacionalidade p {
-  text-align: center;
-}
-.texto-descricao p {
-  text-align: center;
+  padding: 24px;
+  display: block;
+  margin: 0 auto;
 }
