@@ -42,16 +42,35 @@ font-family: 'Press Start 2P', cursive; */
   font-size: 28px;
 }
 
+.sobre-titulo{
+  text-align: center;
+  padding-bottom: 24px;
+  font-size: 1.5rem;
+}
+
+.sobre-texto{
+  text-align: center;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  text-align: justify;
+  font-size: 1.2rem;
+
+}
+
+.nacionalidade-texto{
+  padding-bottom: 5px;
+}
+
 .esquerda,
 .direita {
   background-color: rgb(254, 212, 58);
 }
 .esquerda {
   width: 200px;
-  flex-basis: 10%;
+  flex-basis: 5%;
 }
 .direita {
-  flex-basis: 60%;
+  flex-basis: 55%;
 }
 .perfil {
   width: 300px;
